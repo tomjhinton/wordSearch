@@ -53,7 +53,9 @@ class Main extends React.Component{
     return (
       <div onMouseMove={this.mouseMove} className="body">
 
-      hiya
+        <div className='board'>
+
+        </div>
 
       </div>
 
