@@ -2,6 +2,12 @@
   "name": "wordSearch",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack-dev-server --mode=development",
+    "build": "webpack -p",
+    "deploy": "yarn build && gh-pages -d dist"
+  },
   "repository": "git@github.com:tomjhinton/wordSearch.git",
   "author": "Tom Hinton <tomjhinton@gmail.com>",
   "license": "MIT",
@@ -10,6 +16,7 @@
     "@babel/polyfill": "^7.8.7",
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",
+    "axios": "^0.19.2",
     "babel-loader": "^8.0.6",
     "copy-webpack-plugin": "^5.0.4",
     "css-loader": "^3.2.0",
