@@ -1,7 +1,16 @@
 .board{
   width: 70vh;
   height:70vh;
-  margin: auto;
+  margin-left: 20%;
   border: 5px solid black;
   margin-top: 10vh;
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.letter{
+  width:10%;
+  text-transform: uppercase;
+  font-weight: bold;
 }
